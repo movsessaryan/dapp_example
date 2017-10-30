@@ -1,0 +1,92 @@
+{
+  "contract_name": "ConvertLib",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "amount",
+          "type": "uint256"
+        },
+        {
+          "name": "conversionRate",
+          "type": "uint256"
+        }
+      ],
+      "name": "convert",
+      "outputs": [
+        {
+          "name": "convertedAmount",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    }
+  ],
+  "unlinked_binary": "0x60606040523415600e57600080fd5b5b60908061001d6000396000f300606060405263ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166396e4ee3d8114603c575b600080fd5b6048600435602435605a565b60405190815260200160405180910390f35b8181025b929150505600a165627a7a72305820c01c5e938ac4fb180e18cf9bc7ee30bcf3734c67462d5c11590e717b336ff9650029",
+  "networks": {
+    "1509350549996": {
+      "events": {},
+      "links": {},
+      "address": "0x8ccc920c4effefa66a83de32b114003b0bf59874",
+      "updated_at": 1509351833962
+    },
+    "1509355873399": {
+      "events": {},
+      "links": {},
+      "address": "0x19ff33540f50b8fd291f1a42890b41dfb2da5f90",
+      "updated_at": 1509355880585
+    },
+    "1509356046808": {
+      "events": {},
+      "links": {},
+      "address": "0x9c8dcfa9c3c2abdde5b15ab598b650d9faf55bb3",
+      "updated_at": 1509356108161
+    },
+    "1509356169406": {
+      "events": {},
+      "links": {},
+      "address": "0x0a2697bd2f8c331f5f473d5b9acb5e7f9b171be1",
+      "updated_at": 1509356177181
+    },
+    "1509357228587": {
+      "events": {},
+      "links": {},
+      "address": "0x4b35f9db5ef7236f9b37a13092523ee1b15cee4d",
+      "updated_at": 1509357236625
+    },
+    "1509357988089": {
+      "events": {},
+      "links": {},
+      "address": "0xd7494828606e86b3d76ab2c833945a7659cafc9d",
+      "updated_at": 1509358002359
+    },
+    "1509359334316": {
+      "events": {},
+      "links": {},
+      "address": "0xd6f5ba9283787969c0ffb1696fb536259c83bf94",
+      "updated_at": 1509359352159
+    },
+    "1509359992314": {
+      "events": {},
+      "links": {},
+      "address": "0xede539a4f8aa5e0ff9ae7f1ca6aff5836e26d971",
+      "updated_at": 1509360008950
+    },
+    "1509362705408": {
+      "events": {},
+      "links": {},
+      "address": "0x56863921fb342eecf1de11fb6462ec00f7e690dd",
+      "updated_at": 1509362709667
+    },
+    "1509366916277": {
+      "events": {},
+      "links": {},
+      "address": "0xe05fa60a190f3c76b6418deea00b80c9991fff75",
+      "updated_at": 1509366929817
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1509366929817
+}

@@ -1,24 +1,17 @@
 pragma solidity ^0.4.4;
-import "./DateTime.sol";
 
 contract Offer {
-
-    DateTime dt; //should be replaced with static contract
     uint public creationTimestamp ;
     uint public expirationTimestamp;
-    string resourceUri;
-    string arbiterUri;
+    string public resourceUri;
+    string public arbiterUri;
     address owner;
-    function Offer() {
-        dt = new DateTime();
-        owner = msg.sender;
-        //...
-    }
+    address public account_to_pay;
 
-    function getArbiterUri() constant returns(string){
-        return arbiterUri;
-    }
-    function getResourceUri() constant returns(string){
-        return resourceUri;
+    function Offer() {
+        owner = msg.sender;
+        arbiterUri = 'http://localhost:3000';
+        account_to_pay = msg.sender;
+        //...
     }
 }
