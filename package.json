@@ -12,8 +12,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "ethereumjs-util": "^5.1.2",
+    "ethjs-util": "^0.1.4",
     "http-signature": "^1.2.0",
     "koa": "^2.3.0",
+    "koa-body": "^2.5.0",
+    "koa-request": "^1.0.0",
+    "request-promise": "^4.2.2",
+    "truffle-contract": "^3.0.0",
     "web3": "^0.20.2"
   }
 }
